@@ -1,0 +1,17 @@
+@keyframes titleani {
+    from{
+        scale: 1;
+        transition: 0.15s;
+    }
+
+     50%{
+        scale: 1.05;
+        transition: 0.15s;
+    }
+
+      to{
+        scale: 1;
+        transition: 0.15s;
+
+    }  
+}
