@@ -138,14 +138,14 @@ function clic(bt) {
 function bluewins() {
   var grade = document.getElementById("tic_tac_toe_game");
   grade.innerHTML =
-    '<p id="bluewin" class="wins">O azul ganhou!🏆</p> <button id="reload" onclick="rload()"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Ic_refresh_48px.svg/1200px-Ic_refresh_48px.svg.png"></button>';
+    '<p id="bluewin" class="wins">O azul ganhou!🏆</p> <button id="reload" onclick="rload()"><img src="img/refresh.svg"></button>';
   document.body.className = "";
   document.body.style.backgroundColor = "#0050dd";
 }
 function redwins() {
   var grade = document.getElementById("tic_tac_toe_game");
   grade.innerHTML =
-    '<p id="redwin" class="wins">O vermelho ganhou!🏆</p> <button id="reload" onclick="rload()"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Ic_refresh_48px.svg/1200px-Ic_refresh_48px.svg.png"></button>';
+    '<p id="redwin" class="wins">O vermelho ganhou!🏆</p> <button id="reload" onclick="rload()"><img src="img/refresh.svg"></button>';
   document.body.className = "";
   document.body.style.backgroundColor = "#bd0000";
 }
